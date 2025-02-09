@@ -28,8 +28,8 @@ function randomMegaId(length = 6, numberLength = 4) {
 async function uploadCredsToMega(credsPath) {
     try {
         const storage = await new Storage({
-            email: 'giftedapis@gmail.com', // Your Mega A/c Email Here
-            password: '' // Your Mega A/c Password Here
+            email: 'caspertechke@gmail.com', // Your Mega A/c Email Here
+            password: 'caspertechke' // Your Mega A/c Password Here
         }).ready;
         console.log('Mega storage initialized.');
 
@@ -113,26 +113,28 @@ router.get('/', async (req, res) => {
                     const session = await Gifted.sendMessage(Gifted.user.id, { text: sid });
 
                     const GIFTED_TEXT = `
-*✅sᴇssɪᴏɴ ɪᴅ ɢᴇɴᴇʀᴀᴛᴇᴅ✅*
+*✅𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐩𝐞𝐫𝐟𝐞𝐜𝐭𝐥𝐲✅*
 ______________________________
 ╔════◇
-║『 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃 』
+║『 𝙲𝙰𝚂𝙿𝙴𝚁-𝚇𝙼𝙳 𝚆𝙰𝚂 𝙰𝙳𝙳𝙴𝙳 𝚃𝙾 𝚈𝙾𝚄𝚁 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 😉 』
 ║ You've Completed the First Step
 ║ to Deploy a Whatsapp Bot.
 ╚══════════════╝
 ╔═════◇
-║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥: _youtube.com/@giftedtechnexus_
-║❒ 𝐎𝐰𝐧𝐞𝐫: _https://t.me/mouricedevs_
-║❒ 𝐑𝐞𝐩𝐨: _https://github.com/mouricedevs/giiftedmd_
-║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l_
-║ 💜💜💜
+║ 『❣️ ⋆G⋆E⋆T⋆ H⋆E⋆L⋆P⋆ H⋆E⋆R⋆E⋆ ❣️』
+║❇️𝐘𝐨𝐮𝐭𝐮𝐛𝐞: _youtube.com/@
+║❇️𝐎𝐰𝐧𝐞𝐫: _https://t.me/
+║✳️𝐑𝐞𝐩𝐨: _https://github.com/Traby-qriz/CASPER-XMD
+║✳️𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VazABxMJZg40sEZBX242/0029VaYauR9ISTkHTj4xvi1l_
+║✳️𝐖𝐚𝐆𝐫𝐨𝐮𝐩 : _
+║ 
 ╚══════════════╝ 
- 𝗚𝗜𝗙𝗧𝗘𝗗-𝗠𝗗 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 5.𝟬.𝟬
-______________________________
+ 𝗖𝗔𝗦𝗣𝗘𝗥-𝗫𝗠𝗗 
+ > 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙲𝙰𝚂𝙿𝙴𝚁 𝚃𝙴𝙲𝙷 𝙺𝙴𝙽𝚈𝙰
+________________________________
 
 Use your Session ID Above to Deploy your Bot.
-Check on YouTube Channel for Deployment Procedure(Ensure you have Github Account and Billed Heroku Account First.)
+Check on YouTube Channel for Deployment Procedure(Ensure you have Github Account.)
 Don't Forget To Give Star⭐ To My Repo`;
 
                     await Gifted.sendMessage(Gifted.user.id, { text: GIFTED_TEXT }, { quoted: session });
